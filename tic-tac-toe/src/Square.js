@@ -1,6 +1,6 @@
-import { useState } from "react"
 
 export const Square = (props) => {
-  const [state, setState]= useState(null)
-  return <button className="SquareStyle" onClick={()=>setState("X")}>{state}</button>
+console.log("🚀 ~ file: Square.js ~ line 3 ~ Square ~ props", props)
+
+  return <button className="SquareStyle" onClick={()=>{}}>{props.value}</button>
 }
