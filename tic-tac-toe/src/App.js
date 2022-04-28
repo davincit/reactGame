@@ -18,7 +18,7 @@ const GameStyles = {
 function App() {
   return (
     <div style={GameStyles}>
-Game
+Tik tak Toe
 <Bourd/>
 
     </div>
